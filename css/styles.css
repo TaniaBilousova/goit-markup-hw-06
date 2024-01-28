@@ -444,7 +444,6 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: left;
 color: #F4F4FD;
-margin-right: 156px;
 max-width: 264px;
 }
 
@@ -485,9 +484,8 @@ background-color: #31d0aa;
 fill: #f4f4fd;
 }
 .footer-bottom{
-display: flex;
-text-align: center;
 justify-content: space-between;
+margin-left: 159px;
 }
 .footer-title{
 width: 75px;
