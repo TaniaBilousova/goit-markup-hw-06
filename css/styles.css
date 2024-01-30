@@ -727,11 +727,11 @@ background-color: #404bbf;
 border:none;
 fill: #F4F4FD;
 }
-.check-input:hover{
+.check-icon:hover{
 fill: #4D5AE5;
 }
 
-.check-input:focus{
+.check-icon:focus{
 fill: #4D5AE5;
 }
 .privacy-policy{
