@@ -255,6 +255,8 @@ letter-spacing: 0.02em;
 text-align: center;
 text-transform: capitalize;
 color: #2E2F42;
+/*margin-top: 120px;*/
+margin-top: 96px;
 margin-bottom: 72px;
 }
 .team-list{
@@ -329,7 +331,7 @@ box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
 display: block;
 gap: 24px;
 margin: auto;
-/*max-width: 360px;*/
+max-width: 360px;
 max-height: 420px;
 flex-shrink: 0;
 }
@@ -762,10 +764,9 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  .container {
     max-width: 768px;
  }
- .our-team-list {
-    row-gap: 48px;
-    column-gap: 24px;
- }
+ .team-title{
+   margin-top: 96px;
+}
  .team-list-title {
     width: calc((100% - 24px) / 2);
  }
