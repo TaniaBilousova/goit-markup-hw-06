@@ -256,7 +256,7 @@ text-align: center;
 text-transform: capitalize;
 color: #2E2F42;
 /*margin-top: 120px;*/
-margin-top: 96px;
+margin-top: 87px;
 margin-bottom: 72px;
 }
 .team-list{
@@ -390,7 +390,7 @@ padding-bottom: 120px;
 display: flex;
 flex-wrap: wrap;
 row-gap: 48px;
-column-gap: 24px;
+/*column-gap: 24px;*/
 }
 
 .team-options{
@@ -772,9 +772,12 @@ background-color: #4D5AE5;
  }
  .team-title{
    margin-top: 96px;
-}
+ }
  .team-list-title {
     width: calc((100% - 24px) / 2);
+ }
+ .our-team-list{
+   column-gap: 24px;
  }
 }
 
@@ -784,10 +787,13 @@ background-color: #4D5AE5;
     padding-left: 15px;
     padding-right: 15px;
     }
+ .team-title{
+   margin-top: 120px;
+ }
  .team-list-title{
     width: calc((100% - 48px) / 3);
  }
- .team-img{
-   max-width: 360px;
+ .our-team-list {
+   column-gap: 24px;
  }
 }
