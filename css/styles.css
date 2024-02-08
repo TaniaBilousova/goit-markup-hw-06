@@ -100,7 +100,6 @@ color: #404bbf;
 
 .address{
 font-style: normal;
-margin-left: auto;
 }
 .address-link{
 font-size: 16px;
@@ -116,22 +115,16 @@ color: #404bbf;
 color: #404bbf;
 }
 
-.list-nav{
+.list-nav{ 
+/*display: flex;
+justify-content: center;
+align-items: center;
+padding-top: 16px;
+gap: 12px;
+margin-right: auto;*/
 display: none;
-gap: 40px;
 }
 
-.list-nav-mail{
-width: 153px; 
-height: 24px;
-top: 24px;
-left: 940px;
-}
-
-.list-nav-phone{
-left: 1133px;
-margin-right: auto;
-}
 /**++++++++++++++++++++++++++++++++++++++++*/
 .menu-open-btn {
 background-color: #FFFFFF;
@@ -182,6 +175,8 @@ background-color: #e7e9fc;
 }
 
 .mob-menu-list {
+display: flex;
+flex-wrap: wrap;
 font-weight: 700;
 font-size: 36px;
 line-height: 1.07;
@@ -248,9 +243,7 @@ background-color: #31d0aa;
 .mob-link:focus {
 background-color: #31d0aa;
 }
-.mob-link-icon {
 
-}
 
 /**++++++++++++++++++++++++++*/
 /**------------------------*/
@@ -381,8 +374,8 @@ margin-right: auto;
 /**-------------Team-----------*/
 .team{
 background-color: #F4F4FD;
-padding-top: 120px;
-padding-bottom: 120px;
+padding-top: 96px;
+padding-bottom: 96px;
 }
 .team-title{
 font-size: 36px;
@@ -393,7 +386,7 @@ text-align: center;
 text-transform: capitalize;
 color: #2E2F42;
 /*margin-top: 120px;*/
-margin-top: 87px;
+margin-top: 96px;
 margin-bottom: 72px;
 }
 .team-list{
@@ -571,7 +564,7 @@ padding-bottom: 72px;
 align-items: baseline;
 }
 .text-logo{
-margin-right: 120px;
+/*margin-right: 120px;*/
 }
 .footer-logo{
 display: inline-block;
@@ -923,7 +916,7 @@ background-color: #4D5AE5;
     max-width: 768px;
  }
  .team-title{
-   margin-top: 96px;
+   margin-top: 104px;
  }
  .team-list-title {
     width: calc((100% - 24px) / 2);
@@ -977,9 +970,13 @@ background-color: #4D5AE5;
  }
 
  .list-nav {
-  display: flex;
-  flex-wrap: wrap;
- margin-right: auto;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+padding-top: 16px;
+gap: 12px;
+margin-right: auto;
  }
  .menu-open-btn {
   display: none;
@@ -1011,6 +1008,10 @@ max-width: 360px;
   max-width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
+}
+.team {
+margin-top: 120px;
+margin-bottom: 96px;
 }
  .team-list {
    display: flex;
@@ -1066,9 +1067,16 @@ max-width: 360px;
  .header-menu-list {
   display: flex;
  }
- .list-nav{
-  display: flex;
- }
+
+.list-nav {
+display: flex;
+  /*flex-wrap: wrap;*/
+  /*justify-content: center;
+  align-items: center;*/
+  padding-top: 16px;
+  gap: 40px;
+  margin-right: auto;
+}
 
  .footer {
 padding-top: 100px;
