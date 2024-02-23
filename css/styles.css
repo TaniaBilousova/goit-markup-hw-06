@@ -38,6 +38,7 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 .header-container{
 display: flex;
 align-items: center;
+margin-top: 16px;
 }
 .header-navigation{
 display: flex;
@@ -154,7 +155,7 @@ overflow: auto;
 opacity: 0;
 visibility: hidden;
 pointer-events: none;
-z-index: https: //prnt.sc/5qu_uSz9inGa;
+z-index: 55;
 }
 
 .menu-close-btn {
@@ -713,7 +714,7 @@ border-radius: 4px;
 border: none;
 /*margin-left: 24px;*/
 margin: auto;
-margin-top: auto;
+margin-top: 16px;
 }
 .footer-form-btn:hover{
 background-color: #4D5AE5;
@@ -941,7 +942,6 @@ background-color: #4D5AE5;
  padding-top: 104px;
  }
  
- }
  .team-list-title {
     width: calc((100% - 24px) / 2);
  }
@@ -1020,7 +1020,6 @@ margin-right: auto;
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
-
 }
 .text-logo {
 text-align: left;
@@ -1041,6 +1040,7 @@ text-align: left;
 }
 .footer-form-btn{
 margin-right: auto;
+margin-top: auto;
 }
 .modal {
 width: 408px;
@@ -1049,7 +1049,7 @@ min-height: 584px;
 .modal-title {
 max-width: 360px;
 }
-
+}
 
 
 
@@ -1058,6 +1058,7 @@ max-width: 360px;
   max-width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
+  margin: auto;
 }
 .team {
 padding-top: 96px;
